@@ -222,7 +222,7 @@ img {
   .hero-title {
     font-size: 55px;
     line-height: 75px;
-    margin: 45px 0;
+    margin: 25px 0;
   }
 
   .container {
@@ -230,12 +230,11 @@ img {
   }
 
   .next {
-    top: 377px;
-    right: 35%;
+    top: 400px;
+    right: 33%;
   }
   .prev {
-    position: absolute;
-    top: 105%;
-    left: 35%;
+    top: 402px;
+    left: 33%;
   }
 }

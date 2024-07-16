@@ -23,15 +23,14 @@ const Overview = () => {
         <div className="grid md:grid-cols-4 grid-cols-1 gap-6 py-6">
           {home.map((item, i) => (
             <div
-              className=" md:text-left text-center text-[18px] leading-5 flex flex-col gap-4"
+              className=" md:text-left text-center text-[18px] md:mb-0 mb-4 leading-5 flex flex-col md:gap-4 gap-1"
               key={i}
             >
               <span className="text-[#00dc93] md:mx-0 mx-auto">
                 {item.icon}
               </span>{" "}
               <br />
-              <br />
-              <Link href="/" className="font-semibold ">
+              <Link href="/" className="md:font-semibold ">
                 {item.title}
               </Link>
             </div>

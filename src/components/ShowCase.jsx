@@ -7,9 +7,9 @@ import { showcase } from "@/data/dummyData";
 
 const ShowCase = () => {
   return (
-    <section className="bg-black text-white  md:pt-0 mt-10">
+    <section className="bg-black text-white  md:pt-0 mt-32">
       <div className="container">
-        <div className="heading-title text-center mb-20">
+        <div className="heading-title text-center md:mb-20 mb-6">
           <Title
             title="Selected cases"
             className="font-semibold text-transparent text-[30px] bg-clip-text bg-gradient-to-r from-blue-700 to-pink-500"
